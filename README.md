@@ -17,7 +17,7 @@ The results are quite remarkable, see pictures/screen\_output.txt
 
 The whole chain recognizes digits with probability of 98.1%. The coarsest resolution 7x7 is responsible for 75.5% of the true answers. The contribution of the next resolution 14x14 is about 15% and only in about 10% of samples the highest resolution 28x28 was needed. In other words, practically the coarsest resolution of 7x7 pixels was good for 3/4 of all pictures.
 
-![Training history](pictures/accuracy 7x7.png)
+![Training history](pictures/accuracy\ 7x7.png)
 
 ## Code structure
 
