@@ -23,6 +23,10 @@ The whole chain recognizes digits with probability of 98.1%. The coarsest resolu
 
 ![Training history](pictures/accuracy7x7.png)
 
+Emmanuel Ameisen from the Insight Artificial Intelligent Fellowship Program noticed that the test accuracy exceeds the train one. That may be explained by possible systematics in data selection (I did not shuffle the data). With larger number of epochs that difference washes out.
+
+![Training history 20 epochs](pictures/accuracy7x7-20epochs.png)
+
 ## Code structure
 
 The module DataStore.py obtains the data and prepares pictures with degraded resolution of 14x14 and 7x7 pixels.
