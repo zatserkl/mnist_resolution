@@ -11,6 +11,8 @@ First, the code trains a simple Neural Network with one hidden layer for all thr
 
 The algorithm naively consider softmax value as a probability of truth, Bayesian degree of belief. The threshold value of 0.95 corresponds to confidence interval of two-sigma for Gaussian distribution. 
 
+![Resolutions](pictures/resolutions.png)
+
 ## Results
 
 The results are quite remarkable, see pictures/screen\_output.txt
