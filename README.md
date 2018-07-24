@@ -17,4 +17,12 @@ The results are quite remarkable, see pictures/screen\_output.txt
 
 The whole chain recognizes digits with probability of 98.1%. The coarsest resolution 7x7 is responsible for 75.5% of the true answers. The contribution of the next resolution 14x14 is about 15% and only in about 10% of samples the highest resolution 28x28 was needed. In other words, practically the coarsest resolution of 7x7 pixels was good for 3/4 of all pictures.
 
+![Training history](pictures/accuracy 7x7.png)
 
+## Code structure
+
+The module DataStore.py obtains the data and prepares pictures with degraded resolution of 14x14 and 7x7 pixels.
+
+The module ModelRes.py uses Keras to build and trains the Neural Network model. 
+
+The main module mnist\_resolution.py calls service modules and implements multi-step algorithm of prediction that starts from the coarse resolution 7x7 pixels and use finer resolution if the degree of belier falls out of 2-sigma confidence interval.
