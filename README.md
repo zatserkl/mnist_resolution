@@ -11,6 +11,12 @@ First, the code trains a simple Neural Network with one hidden layer for all thr
 
 The algorithm naively consider softmax value as a probability of truth, Bayesian degree of belief. The threshold value of 0.95 corresponds to confidence interval of two-sigma for Gaussian distribution. 
 
+Example of softmax distribution for the resolution 7x7 pixels:
+
+![Probability for 7x7](pictures/prob7x7.png)
+
+Below are the first three picture in different resolution.
+
 ![Resolution28x28](pictures/resolution28x28.png)
 ![Resolution14x14](pictures/resolution14x14.png)
 ![Resolution7x7](pictures/resolution7x7.png)
