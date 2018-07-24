@@ -30,3 +30,11 @@ The module DataStore.py obtains the data and prepares pictures with degraded res
 The module ModelRes.py uses Keras to build and trains the Neural Network model. 
 
 The main module mnist\_resolution.py calls service modules and implements multi-step algorithm of prediction that starts from the coarse resolution 7x7 pixels and use finer resolution if the degree of belier falls out of 2-sigma confidence interval.
+
+## Technical remarks
+
+The code saves downgraded resolution pictures on disk in the directory result to save time for the following runs if they are presented in the directory. The models are also stored on the disk.
+
+## Links
+
+Author used excellent blog post "MNIST Handwritten Digit Recognition in Keras" by Gregor Koehler <https://nextjournal.com/gkoehler/digit-recognition-with-keras>
