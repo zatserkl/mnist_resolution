@@ -1,0 +1,94 @@
+/Users/zatserkl/anaconda/bin/python "/Users/zatserkl/Insight AI/July 2018/resolution/mnist_resolution/mnist_resolution.py"
+Using TensorFlow backend.
+self.X_train.dtype: uint8 self.X_train.shape: (60000, 28, 28)
+--> create degraded resolution pictures
+(60000, 28, 28)
+.. Training model for resolution 28x28
+self.x_train.shape (60000, 784)
+self.y_train.shape (60000, 10)
+model file: result/keras_mnist28.h5
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+2018-07-23 23:40:41.653614: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-07-23 23:40:41.653628: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-07-23 23:40:41.653634: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-07-23 23:40:41.653640: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-07-23 23:40:41.653644: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+ - 2s - loss: 0.3393 - acc: 0.9033 - val_loss: 0.1636 - val_acc: 0.9512
+Epoch 2/10
+ - 2s - loss: 0.1528 - acc: 0.9557 - val_loss: 0.1129 - val_acc: 0.9654
+Epoch 3/10
+ - 2s - loss: 0.1075 - acc: 0.9688 - val_loss: 0.0882 - val_acc: 0.9726
+Epoch 4/10
+ - 2s - loss: 0.0866 - acc: 0.9740 - val_loss: 0.0766 - val_acc: 0.9769
+Epoch 5/10
+ - 2s - loss: 0.0698 - acc: 0.9788 - val_loss: 0.0756 - val_acc: 0.9759
+Epoch 6/10
+ - 2s - loss: 0.0598 - acc: 0.9819 - val_loss: 0.0641 - val_acc: 0.9796
+Epoch 7/10
+ - 2s - loss: 0.0506 - acc: 0.9841 - val_loss: 0.0622 - val_acc: 0.9811
+Epoch 8/10
+ - 2s - loss: 0.0436 - acc: 0.9869 - val_loss: 0.0615 - val_acc: 0.9807
+Epoch 9/10
+ - 2s - loss: 0.0380 - acc: 0.9879 - val_loss: 0.0574 - val_acc: 0.9822
+Epoch 10/10
+ - 2s - loss: 0.0334 - acc: 0.9898 - val_loss: 0.0561 - val_acc: 0.9827
+.. Training model for resolution 14x14
+self.x_train.shape (60000, 196)
+self.y_train.shape (60000, 10)
+model file: result/keras_mnist14.h5
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+ - 2s - loss: 0.4947 - acc: 0.8665 - val_loss: 0.2387 - val_acc: 0.9318
+Epoch 2/10
+ - 2s - loss: 0.2252 - acc: 0.9362 - val_loss: 0.1705 - val_acc: 0.9528
+Epoch 3/10
+ - 2s - loss: 0.1710 - acc: 0.9506 - val_loss: 0.1333 - val_acc: 0.9613
+Epoch 4/10
+ - 1s - loss: 0.1397 - acc: 0.9594 - val_loss: 0.1167 - val_acc: 0.9667
+Epoch 5/10
+ - 1s - loss: 0.1191 - acc: 0.9651 - val_loss: 0.1002 - val_acc: 0.9689
+Epoch 6/10
+ - 1s - loss: 0.1036 - acc: 0.9697 - val_loss: 0.0903 - val_acc: 0.9718
+Epoch 7/10
+ - 1s - loss: 0.0917 - acc: 0.9730 - val_loss: 0.0819 - val_acc: 0.9756
+Epoch 8/10
+ - 1s - loss: 0.0829 - acc: 0.9757 - val_loss: 0.0786 - val_acc: 0.9760
+Epoch 9/10
+ - 1s - loss: 0.0748 - acc: 0.9773 - val_loss: 0.0771 - val_acc: 0.9761
+Epoch 10/10
+ - 1s - loss: 0.0687 - acc: 0.9792 - val_loss: 0.0719 - val_acc: 0.9785
+.. Training model for resolution 7x7
+self.x_train.shape (60000, 49)
+self.y_train.shape (60000, 10)
+model file: result/keras_mnist7.h5
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+ - 1s - loss: 0.8040 - acc: 0.8008 - val_loss: 0.3918 - val_acc: 0.8944
+Epoch 2/10
+ - 1s - loss: 0.3758 - acc: 0.8899 - val_loss: 0.2985 - val_acc: 0.9149
+Epoch 3/10
+ - 1s - loss: 0.3061 - acc: 0.9093 - val_loss: 0.2526 - val_acc: 0.9260
+Epoch 4/10
+ - 1s - loss: 0.2665 - acc: 0.9203 - val_loss: 0.2218 - val_acc: 0.9346
+Epoch 5/10
+ - 1s - loss: 0.2396 - acc: 0.9274 - val_loss: 0.1990 - val_acc: 0.9392
+Epoch 6/10
+ - 1s - loss: 0.2183 - acc: 0.9346 - val_loss: 0.1833 - val_acc: 0.9451
+Epoch 7/10
+ - 1s - loss: 0.2037 - acc: 0.9373 - val_loss: 0.1695 - val_acc: 0.9487
+Epoch 8/10
+ - 1s - loss: 0.1903 - acc: 0.9423 - val_loss: 0.1611 - val_acc: 0.9500
+Epoch 9/10
+ - 1s - loss: 0.1795 - acc: 0.9451 - val_loss: 0.1495 - val_acc: 0.9541
+Epoch 10/10
+ - 1s - loss: 0.1698 - acc: 0.9485 - val_loss: 0.1448 - val_acc: 0.9553
+whole chain correct: 9814
+just 7x7 correct: 7547
+found14x14 correct: 1494
+found28x28 correct: 435
+found28x28_all correct: 773
+whole chain incorrect: 186
+
+Process finished with exit code 0
+
