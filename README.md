@@ -1,4 +1,4 @@
-# Effect of resolution on performace on MNIST handwritten digits recognition
+# Effect of resolution on performance on MNIST handwritten digits recognition
 
 ## Introduction
 
